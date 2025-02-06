@@ -5,3 +5,4 @@ Welcome to the **Daily LeetCode Solutions** repository! 🎯 This repository is 
 Currently, I am using:
 - **C++**
 - **Java**
+- **C**
