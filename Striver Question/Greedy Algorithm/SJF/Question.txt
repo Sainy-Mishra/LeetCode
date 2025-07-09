@@ -1,0 +1,31 @@
+Problem: Shortest Job First (SJF) Scheduling
+
+You are given the burst times (execution times) of 'n' processes that all arrive at time 0. Your task is to calculate the average waiting time of these processes using the Shortest Job First (SJF) non-preemptive scheduling algorithm.
+
+In this algorithm, processes are scheduled in ascending order of their burst times. The waiting time of a process is defined as the total time the process has to wait before its execution starts.
+
+Write a program that:
+1. Reads the number of processes 'n'.
+2. Reads 'n' integers representing the burst times of the processes.
+3. Calculates and prints the average waiting time as an integer (using floor division).
+
+Input Format:
+- The first line contains an integer n (1 ≤ n ≤ 1000): the number of processes.
+- The second line contains n space-separated integers: the burst times of the processes.
+
+Output Format:
+- Print a single integer: the average waiting time.
+
+Sample Input 1:
+4
+6 8 7 3
+
+Sample Output 1:
+10
+
+Sample Input 2:
+3
+10 10 20
+
+Sample Output 2:
+10
