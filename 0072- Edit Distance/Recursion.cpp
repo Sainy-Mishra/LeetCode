@@ -1,7 +1,7 @@
 class Solution {
 public:
 
-    int distance(string s1, string s2, int i, int j){
+    int distance(string &s1, string &s2, int i, int j){
         if(i<0) return j+1;
         if(j<0) return i+1;
 
